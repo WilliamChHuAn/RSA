@@ -29,8 +29,8 @@
 	   		- Public key is (*e*, *n*) => (7, 33)
 	    	- Private key is (*d*, *n*) => (3, 33)
 	3. Encrypt / Decrypt
-		- The encryption of *pt* =  2 is *ct* = 2^7 % 33 = *29*
-		- The decryption of *ct* = 29 is *pt* = 29^3 % 33 = *2*
+		- The encryption of *pt* =  2 is *ct* = <img src="https://render.githubusercontent.com/render/math?math=2^{7}"> % 33 = *29*
+		- The decryption of *ct* = 29 is *pt* = <img src="https://render.githubusercontent.com/render/math?math=29^{3}"> % 33 = *2*
 
 ## Example
 
