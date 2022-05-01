@@ -1,7 +1,7 @@
 # RSA
 
 - To implement RSA algorithm in Python.
-- Ron **R**ivest & Adi **S**hamir & Leonard **A**dleman
+- Ron ***R***ivest & Adi ***S***hamir & Leonard ***A***dleman
 
 ##### tags: `110-2` `Dr. Shin-Ming Cheng`
 
