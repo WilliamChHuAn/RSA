@@ -1,4 +1,4 @@
-import sys
+from Crypto.Util.number import long_to_bytes
 
 def intToBytes(x: int) -> bytes:
     return x.to_bytes((x.bit_length() + 7) // 8, "big")
@@ -7,7 +7,7 @@ print()
 print("RSA Decryption")
 print("---------------")
 
-# input plaintext
+# input ciphertext
 ct = int(input("Please enter your ciphertext: "))
 print("---------------")
 
@@ -20,4 +20,5 @@ N = int(input("Please enter your N: "))
 print("---------------")
 
 # decryption
-print("Plaintext:", intToBytes(pow(ct, d, N)))
+pt = pow(ct, d, N)
+print("Plaintext:", intToBytes(pt))
