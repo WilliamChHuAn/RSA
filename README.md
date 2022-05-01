@@ -15,6 +15,12 @@
 	- Input `"A"` -> `b'A'` -> `0100 0001` -> `65`
 	- Input `"AA"` -> `b'AA` -> `0100 0001 0100 0001` -> `16705`
 
+### Note
+
+- Because like "AA" will be 16705 -> You should keep N = *p* x *q* >= *plaintext*
+- **In other words, please be sure that all of your input is correct for RSA algorithm**
+	- [Rule](https://zh.wikipedia.org/zh-tw/RSA加密演算法#操作)
+
 ## Details
 
 - [Reference](https://www.cs.utexas.edu/~mitra/honors/soln.html)
