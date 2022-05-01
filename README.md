@@ -29,8 +29,13 @@
 	   		- Public key is (*e*, *n*) => (7, 33)
 	    	- Private key is (*d*, *n*) => (3, 33)
 	3. Encrypt / Decrypt
+	Display math:
+	```math
+	e^{i\pi} + 1 = 0
+	```
+	and line math $`a^2 + b^2 = c^2`$.
 		- The encryption of *pt* =  2 is *ct* = <img src="https://render.githubusercontent.com/render/math?math=\color{red}\2^7 \mod 33 = 29">
-		- The decryption of *ct* = 29 is *pt* = ![formula](https://render.githubusercontent.com/render/math?math=\color{red}\)
+		- The decryption of *ct* = 29 is *pt* = <img src="https://render.githubusercontent.com/render/math?math=\color{red}\2^7 \mod 33 = 29">
 
 ## Example
 
